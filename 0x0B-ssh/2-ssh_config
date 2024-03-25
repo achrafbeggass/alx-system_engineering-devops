@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# ssh configuration file
+Host *
+    IdentityFile ~/.ssh/id_dsa
+    PasswordAuthentication no
