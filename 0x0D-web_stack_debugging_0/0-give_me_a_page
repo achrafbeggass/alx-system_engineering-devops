@@ -1,3 +1,5 @@
 #!/usr/bin/env bash
-# fixes an apache server in a container
-service apache2 start
+# check if apache2 is running
+sudo service apache2 status
+# start apache
+sudo service apache2 start
